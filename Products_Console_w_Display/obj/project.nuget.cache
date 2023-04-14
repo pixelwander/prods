@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "D9siXFlod5Ra9e3wPp1BiH1850U+v40oK5u5iik5+/gYswk1uU4CB31SB/w64Q1ctsiYZPDmgpJvT5OVQEBVMw==",
+  "dgSpecHash": "Xp+gDJi1i5vugJKDJRJI0vgQ/Eo4ZEF67Msy4mBW51XDs4D8GpoFlMJ7v6S2yqp+1ZtLYj+jHt3q48cdO7unEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\crazy\\OneDrive\\Workspace-VS\\Products_Console_w_Display\\Products_Console_w_Display\\Products_Console_w_Display.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/coleniswander/Desktop/CS-190/displayprodconsole1/Products_Console_w_Display/Products_Console_w_Display.csproj",
+  "expectedPackageFiles": [
+    "/Users/coleniswander/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/coleniswander/.nuget/packages/npgsql/7.0.2/npgsql.7.0.2.nupkg.sha512",
+    "/Users/coleniswander/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

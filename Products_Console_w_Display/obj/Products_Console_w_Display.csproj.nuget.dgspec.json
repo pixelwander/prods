@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crazy\\OneDrive\\Workspace-VS\\Products_Console_w_Display\\Products_Console_w_Display\\Products_Console_w_Display.csproj": {}
+    "/Users/coleniswander/Desktop/CS-190/displayprodconsole1/Products_Console_w_Display/Products_Console_w_Display.csproj": {}
   },
   "projects": {
-    "C:\\Users\\crazy\\OneDrive\\Workspace-VS\\Products_Console_w_Display\\Products_Console_w_Display\\Products_Console_w_Display.csproj": {
+    "/Users/coleniswander/Desktop/CS-190/displayprodconsole1/Products_Console_w_Display/Products_Console_w_Display.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crazy\\OneDrive\\Workspace-VS\\Products_Console_w_Display\\Products_Console_w_Display\\Products_Console_w_Display.csproj",
+        "projectUniqueName": "/Users/coleniswander/Desktop/CS-190/displayprodconsole1/Products_Console_w_Display/Products_Console_w_Display.csproj",
         "projectName": "Products_Console_w_Display",
-        "projectPath": "C:\\Users\\crazy\\OneDrive\\Workspace-VS\\Products_Console_w_Display\\Products_Console_w_Display\\Products_Console_w_Display.csproj",
-        "packagesPath": "C:\\Users\\crazy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crazy\\OneDrive\\Workspace-VS\\Products_Console_w_Display\\Products_Console_w_Display\\obj\\",
+        "projectPath": "/Users/coleniswander/Desktop/CS-190/displayprodconsole1/Products_Console_w_Display/Products_Console_w_Display.csproj",
+        "packagesPath": "/Users/coleniswander/.nuget/packages/",
+        "outputPath": "/Users/coleniswander/Desktop/CS-190/displayprodconsole1/Products_Console_w_Display/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\crazy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/coleniswander/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,13 +37,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
